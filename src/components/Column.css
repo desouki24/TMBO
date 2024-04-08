@@ -1,0 +1,43 @@
+/* Column.css */
+.column {
+    flex: 1;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .column h3 {
+    margin-top: 0;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  button {
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3f434e;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+
+  form {
+    display: grid;
+    
+  }
+  .left-right-btn{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .columnbtn{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+  }
